@@ -139,7 +139,54 @@ export function HomePage() {
               </div>
             ))}
         </div>
-      </section>
+  </section>
+
+      <footer className="hotel-footer">
+        <div className="hotel-footer-content">
+          <div className="hotel-footer-intro">
+            <span className="eyebrow">ESTAMOS PARA AYUDARTE</span>
+            <h2>Contacto</h2>
+            <p>Será un gusto acompañarte en tu próxima estadía.</p>
+          </div>
+
+          <div className="hotel-footer-item">
+            <span>☎</span>
+            <div>
+              <h3>Teléfono</h3>
+              <p>+591 700 00000</p>
+            </div>
+          </div>
+
+          <div className="hotel-footer-item">
+            <span>◉</span>
+            <div>
+              <h3>WhatsApp</h3>
+              <p>Contacto de demostración</p>
+            </div>
+          </div>
+
+          <div className="hotel-footer-item">
+            <span>f</span>
+            <div>
+              <h3>Facebook</h3>
+              <p>Hotel — Página de demostración</p>
+            </div>
+          </div>
+
+          <div className="hotel-footer-item">
+            <span>⌖</span>
+            <div>
+              <h3>Dirección</h3>
+              <p>Sucre, Bolivia · Proyecto académico</p>
+            </div>
+          </div>
+        </div>
+
+        <div className="hotel-footer-bottom">
+  <strong>Casa Aurora</strong>
+  <span>Hospedaje</span>
+</div>
+      </footer>
     </>
   );
 }
