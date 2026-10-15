@@ -11,3 +11,9 @@ export interface Reservation {
   nights: number; serviceIds: string[]; garage: boolean; total: number; status: ReservationStatus;
   createdAt: string;
 }
+export interface Garage {
+  id: string;
+  totalCapacity: number;
+  status: "Activo" | "Inactivo";
+  createdAt: string;
+}
